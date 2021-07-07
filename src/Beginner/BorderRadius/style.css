@@ -1,0 +1,26 @@
+.box{
+    width: 55vh !important;
+    height: 55vh !important;
+    border: 10px solid #282c34;
+    text-align: center;
+    padding: 7rem 2rem;
+    /* margin-left: 25rem; */
+    background-color: #e7efff;
+}
+
+.tr,.br{
+    margin-left: 13rem;
+}
+.inputRadius{
+    border: 2px;
+    width: 12vh;
+    height: 5vh;
+    padding: 6px 1px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+.rootBorderRadius{
+    
+    padding: 2rem;
+}

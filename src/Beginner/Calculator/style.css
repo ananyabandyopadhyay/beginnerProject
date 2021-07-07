@@ -1,0 +1,29 @@
+.calRoot{
+    background: #929292;
+    width: 33%;
+    margin: 5rem;
+    text-align: center;
+}
+.calHeader{
+    height: 8rem;
+
+}
+.calBody{
+    margin: 1rem;
+
+}
+.calItem{
+
+}
+.calButton{
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+}
+.calOutput{
+    font-size: 5rem;
+    text-align: right;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+
+}

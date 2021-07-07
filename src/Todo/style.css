@@ -1,0 +1,54 @@
+.root {
+    width: 30%;
+    padding: 2rem;
+    }
+    .inputTask{
+      padding: 5px;
+      border-radius: 5px;
+      border: 0px;
+      margin-right: 1rem;
+    }
+    .button{
+      border-radius: 3px;
+      border: 1px solid #282c34;
+      color: white;
+      background: #282c34;
+      font-size: 14px;
+      /* text-shadow: 0 0 white; */
+      padding: 2px 9px;
+      cursor: pointer;
+    }
+    
+    .tasklist{
+      padding: 1rem;
+      text-align: left;
+    }
+    .key{
+      margin-right: 1rem;
+    }
+    .item{
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .input{
+      padding: 5px;
+      border-radius: 5px;
+      border: 0px;
+      width: 100%;
+
+    }
+    .editbtn{
+      margin-left: 1rem;
+      border-radius: 3px;
+      border: 1px solid #282c34;
+      color: white;
+      background: #282c34;
+      font-size: 14px;
+      /* text-shadow: 0 0 white; */
+      padding: 2px 9px;
+      margin-top: 1rem;
+      cursor: pointer;
+      margin-right: 9rem;
+
+    }
+    

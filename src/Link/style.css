@@ -1,0 +1,83 @@
+.linkHeader1st, .linkHeader2nd, .linkHeader3rd{
+    color: #cedefd;
+    font-size: 18px;
+}
+.linkHeader1st:link, .linkHeader2nd:link, .linkHeader3rd:link{
+    text-decoration: none;
+}
+.linkHeader1st[beginner='1']{
+    color: rgb(36, 255, 36);
+    
+}
+.linkHeader2nd[intermediate='1']{
+    color: rgb(255, 255, 59);
+}
+.linkHeader3rd[advanced='1']{
+    color: rgb(255, 75, 75);
+}
+.linkHeader1st:hover{
+    color: rgb(36, 255, 36);
+    text-shadow: 2px 2px 6px green;
+}
+.linkHeader2nd:hover{
+    color: rgb(255, 255, 59);
+    text-shadow: 2px 2px 4px rgb(209, 209, 3);
+}
+.linkHeader3rd:hover{
+    color: rgb(255, 75, 75);
+    text-shadow: 3px 3px 6px rgb(196, 16, 16);
+}
+
+.link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px 1rem;
+    margin-top: 3rem;
+}
+.linkItemBeginner[beginner='1']{
+    color: #cedefd;
+    font-size: 18px;
+    width: 10rem;
+    height: 10px;
+    position: relative;
+    background-color: green;
+    animation-name: beginner ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}@keyframes beginner{
+    from   {background-color:green; left:-25%;}
+    to  {background-color:green; left:0%;}
+}
+.linkItemIntermediate[intermediate='1'] {
+    color: #cedefd;
+    font-size: 18px;
+    width: 10rem;
+    height: 10px;
+    position: relative;
+    background-color: green;
+    animation-name: intermediate ;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes intermediate{
+    from   {background-color:green; left:-37rem;}
+     to  {background-color:yellow; left:0%;}
+  
+}
+.linkItemAdvanced[advanced='1']{
+    color: #cedefd;
+    font-size: 15px;
+    width: 10rem;
+    height: 10px;
+    position: relative;
+    background-color: green;
+    animation-name: advanced ;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes advanced{
+    from   {background-color:green; left:-70rem;}
+    to  {background-color:rgb(255, 28, 28); left:0%;}
+}
