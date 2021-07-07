@@ -10,7 +10,10 @@ return(
         <Link />
       </header>
       <body className="App-body">
-       < ChristmasLights />
+      <div className="header">
+         coming soon
+        </div >
+       {/* < ChristmasLights /> */}
       </body>
     </div>
 )

@@ -15,7 +15,9 @@ return(
       </header>
       <body className="App-body">
           <div className="Container">
-        <div className="header">projects for intermediate level</div >
+        <div className="header">projects for intermediate level
+        <br/> coming soon
+        </div >
         </div>
       </body>
     </div>

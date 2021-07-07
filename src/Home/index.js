@@ -10,7 +10,7 @@ return(
         <Link />
       </header>
       <body className="App-body">
-        Check my projects
+        Click on beginner tab to check my projects for beginner level
       </body>
     </div>
 )
