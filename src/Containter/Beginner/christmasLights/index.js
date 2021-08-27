@@ -1,16 +1,16 @@
-import Link from '../../Link'
+import Tab from '../../../Component/Card'
 import { useState } from 'react';
-import Calculator from './calculator'
+import ChristmasLights from './christmasLights'
 function Index(){
     
 return(
     <div className="App">
       <header className="App-header">
-        Calculator
-        <Link />
+      Christmas Lights
+        <Tab />
       </header>
       <body className="App-body">
-       <Calculator />
+       < ChristmasLights />
       </body>
     </div>
 )

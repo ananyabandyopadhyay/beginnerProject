@@ -1,0 +1,16 @@
+
+.main {
+    display: flex;
+}
+.firstdiv {
+    background-color: #d4d4d4;
+    padding: 30px;
+    width: 32%;
+}
+.photo {
+    padding: 10px;
+}
+.seconddiv{
+    background: whitesmoke;
+    padding: 20px;
+}

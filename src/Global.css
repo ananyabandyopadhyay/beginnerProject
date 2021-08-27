@@ -1,3 +1,7 @@
+:root {
+  --lightsOff: rgb(132 128 128); 
+}
+
 .App {
   text-align: center;
 }

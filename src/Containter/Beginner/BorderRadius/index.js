@@ -1,4 +1,4 @@
-import Link from '../../Link'
+import Tab from '../../../Component/Card'
 import { useState } from 'react';
 import './style.css'
 import { Row, Col, Container } from 'react-bootstrap';
@@ -21,7 +21,7 @@ return(
         {/* {console.log(radius)} */}
       <header className="App-header">
         Border Radius previewer
-        <Link />
+        <Tab />
       </header>
       <body className="App-body">
         <div className="rootBorderRadius">

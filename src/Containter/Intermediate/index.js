@@ -1,17 +1,16 @@
-import '../Global.css';
-import HeaderLink from '../Link'
+import '../../Global.css';
+import Tab from '../../Component/Tab'
 import { useState } from 'react';
 import {Link} from 'react-router-dom'
 import {Row, Col} from 'react-bootstrap'
 // import './style.css'
-import Ticket from '../Ticket'
 
 function Index(){
 return(
     <div className="App">
       <header className="App-header">
       Intermediate
-        <HeaderLink />
+        <Tab />
       </header>
       <body className="App-body">
           <div className="Container">
