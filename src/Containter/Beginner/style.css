@@ -3,20 +3,13 @@
     padding: 2rem;
 }
 .projectLink{
-    border: 0px;
-    padding: 13px 30px;
-    background: #cbffb8;
-    border-radius: 5px;
-    line-height: 4rem;
-    box-shadow: 5px 5px 5px grey;
-    color: #222429;
-
+    padding: 1rem;
 }
-.projectLink:hover{
+/* .projectLink:hover{
     box-shadow: 10px 10px 10px grey;
     color: black;
     background: white;
-}
+} */
 
 .linkBox{
     width: 100vh;

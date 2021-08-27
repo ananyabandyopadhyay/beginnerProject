@@ -1,4 +1,4 @@
-import Link from '../../Link'
+import Tab from '../../../Component/Card'
 import { useState } from 'react';
 import './style.css'
 function Index(props){
@@ -33,7 +33,7 @@ return(
     <div className="App">
       <header className="App-header">
         Binary to Decimal
-        <Link />
+        <Tab />
       </header>
       <body className="App-body">
         <div className="root">
