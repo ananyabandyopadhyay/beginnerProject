@@ -19,6 +19,10 @@ function Index(){
     {
       name:"Calculator",
       accessor: "Calculator",
+    },
+    {
+      name:"Christmas Lights",
+      accessor: "christmasLights",
     }
   ]
 return(

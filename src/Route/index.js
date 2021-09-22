@@ -26,9 +26,9 @@ function Routepath() {
         <Route path="/beginner/calculator">
           <Calculator />
         </Route>
-        {/* <Route path="/beginner/christmasLights">
+        <Route path="/beginner/christmasLights">
           <ChristmasLights />
-        </Route> */}
+        </Route>
         <Route path="/intermediate">
           <Intermediate />
         </Route>
