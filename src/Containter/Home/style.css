@@ -1,16 +1,49 @@
 
 .main {
     display: flex;
+    flex-direction: column;
 }
 .firstdiv {
-    background-color: #d4d4d4;
+    background-color: #ffffff;
     padding: 30px;
-    width: 32%;
+    /* width: 32%; */
+    height: 50vh;
 }
 .photo {
     padding: 10px;
 }
 .seconddiv{
-    background: whitesmoke;
+    background: rgb(0, 0, 0);
     padding: 20px;
+    height: calc(100vh - 50vh);
+}
+.imageDiv{
+    width: 45%;
+    margin: auto; 
+}
+.nameDiv{
+    font-family: cursive;
+    font-size: large;
+    font-weight: 500;
+    color: #cecfca;
+    margin-left: 4rem;
+}
+.contact{
+    display: flex;
+    display: flex;
+    width: 17%;
+    margin: auto;
+}
+.iconDiv,.urlDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    line-height: 1;
+
+}
+.icon{
+    margin-bottom: 1rem;
+}
+.url{
+    letter-spacing: 1px;
 }

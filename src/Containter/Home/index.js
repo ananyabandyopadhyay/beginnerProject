@@ -10,7 +10,7 @@ return(
         My Project
         <Tab />
       </header>
-      <body className="App-body">
+      <body >
         {/* Here you can find my project for different level
         <br />
         Click on beginner tab to check my projects for beginner level and so on
