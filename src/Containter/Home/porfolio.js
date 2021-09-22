@@ -49,10 +49,10 @@ function Index() {
                     </div>
 
                     <div className="seconddiv">
-                        <p>I am a hardworking, honest individual. Also, a good timekeeper, always willing to learn new skills. I
+                        {/* <p>I am a hardworking, honest individual. Also, a good timekeeper, always willing to learn new skills. I
                             am
                             able to work independently in busy environment and also within a team setting. I am outgoing and
-                            tactful, and able listen effectively when solving problems. </p>
+                            tactful, and able listen effectively when solving problems. </p> */}
 
                         <div>
                             <u>
