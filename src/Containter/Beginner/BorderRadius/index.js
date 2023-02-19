@@ -21,7 +21,7 @@ return(
         {/* {console.log(radius)} */}
       <header className="App-header">
         Border Radius previewer
-        <Tab />
+        {/* <Tab /> */}
       </header>
       <body className="App-body">
         <div className="rootBorderRadius">

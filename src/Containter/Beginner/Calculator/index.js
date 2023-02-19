@@ -7,7 +7,7 @@ return(
     <div className="App">
       <header className="App-header">
         Calculator
-        <Tab />
+        {/* <Tab /> */}
       </header>
       <body className="App-body">
        <Calculator />

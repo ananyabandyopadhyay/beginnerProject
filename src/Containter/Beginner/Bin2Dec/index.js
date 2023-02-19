@@ -33,7 +33,7 @@ return(
     <div className="App">
       <header className="App-header">
         Binary to Decimal
-        <Tab />
+        {/* <Tab /> */}
       </header>
       <body className="App-body">
         <div className="root">

@@ -7,16 +7,22 @@ import Home from '../Containter/Home'
 import Beginner from '../Containter/Beginner'
 import Intermediate from '../Containter/Intermediate'
 import Advanced from '../Containter/Advanced'
-import ChristmasLights from '../Containter/Beginner/christmasLights'   
+import ChristmasLights from '../Containter/Beginner/christmasLights'
+import Portfolio from '../Containter/Portfolio'
 function Routepath() {
   return (
    <>
     <BrowserRouter>
       <Switch>
-      <Route exact path="/">
+        <Route exact path="/">
+          <Portfolio />
+        </Route>
+        <Route exact path="/projectSummary">
           <Home />
         </Route>
-        <Route exact path="/beginner"><Beginner /></Route>
+        <Route exact path="/beginner">
+          <Beginner />
+        </Route>
         <Route path="/beginner/bin2dec">
           <Bin2Dec />
         </Route>
