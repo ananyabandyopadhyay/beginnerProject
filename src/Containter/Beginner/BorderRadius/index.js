@@ -1,4 +1,4 @@
-import Tab from '../../../Component/Card'
+import Tab from '../../../Component/Tab'
 import { useState } from 'react';
 import './style.css'
 import { Row, Col, Container } from 'react-bootstrap';
@@ -17,13 +17,7 @@ function Index(){
     }
 return(
     <>
-    <div className="App">
-        {/* {console.log(radius)} */}
-      <header className="App-header">
-        Border Radius previewer
-        {/* <Tab /> */}
-      </header>
-      <body className="App-body">
+
         <div className="rootBorderRadius">
         <Row >
         <Col md={3} className="tl">
@@ -55,8 +49,6 @@ return(
         {/* <Col md={3}></Col> */}
         </Row>
         </div>
-      </body>
-    </div>
         
         
     </>

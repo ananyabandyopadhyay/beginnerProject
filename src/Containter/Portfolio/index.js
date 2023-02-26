@@ -4,7 +4,6 @@ import myImage from "../../image/myImage.jpeg"
 function Index(){
 return(
     <div className={style.parentBlock}>
-        <div className={style.projects}><a href={'/projectSummary'} >My Projects</a></div>
         
         <div className={style.introBlock}>
             <div className={style.leftIntroBlock}>

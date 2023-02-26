@@ -2,9 +2,9 @@
   --lightsOff: rgb(132 128 128); 
 }
 
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -20,11 +20,9 @@
 }
 
 .App-body {
-  background-color: #cedfff;
   /* align-items: center; */
   display: flex;
   justify-content: center;
-  color: #282c34;
   height: 100vh;
 }
 

@@ -26,12 +26,6 @@ function Index(){
     }
   ]
 return(
-    <div className="App">
-      <header className="App-header">
-        Beginner
-        <Tab />
-      </header>
-      <body className="App-body">
           <div className="Container">
         <div className="header">projects for Beginner level</div >
 
@@ -44,8 +38,6 @@ return(
           </Col>)}
         </Row>
         </div>
-      </body>
-    </div>
 )
 }
 export default Index

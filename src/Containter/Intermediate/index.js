@@ -7,19 +7,13 @@ import {Row, Col} from 'react-bootstrap'
 
 function Index(){
 return(
-    <div className="App">
-      <header className="App-header">
-      Intermediate
-        <Tab />
-      </header>
-      <body className="App-body">
+
           <div className="Container">
         <div className="header">projects for intermediate level
         <br/> coming soon
         </div >
         </div>
-      </body>
-    </div>
+
 )
 }
 export default Index

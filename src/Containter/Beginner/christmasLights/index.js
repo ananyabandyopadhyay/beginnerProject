@@ -4,14 +4,9 @@ import ChristmasLights from './christmasLights'
 function Index(){
     
 return(
-    <div className="App">
-      <header className="App-header">
-      Christmas Lights
-        {/* <Tab /> */}
-      </header>
-      <body className="App-body">
+    <div>
+
        < ChristmasLights />
-      </body>
     </div>
 )
 }

@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import {Row, Col , Container} from 'react-bootstrap'
+import Tab from '../../../Component/Tab'
+
 import './style.css'
 function Calculator(){
     const [value, setValue] = useState("")
@@ -65,13 +67,10 @@ function Calculator(){
     }
 
 return(
+    <>
+    
     <div className="calRoot">
-        {console.log("------------------------------------")}
-        {/* {console.log("operator2", operator2)} */}
-        {console.log("result", result)}
-        {console.log("value1", value)}
-        {console.log("value2", value2)}
-        {console.log("operator", operator)}
+        
         
         <Container>
         <Row >
@@ -81,7 +80,6 @@ return(
                 : (<>{value} {operator} {value2}</>)
                 }
             </div>
-            {/* {console.log(result)} */}
         </Row>
         <Row className="calHeader">
             <div className="calOutput">{result ?
@@ -237,6 +235,7 @@ return(
         <Row className="output"></Row> */}
         </Container>
     </div>
+    </>
 )
 }
 export default Calculator
